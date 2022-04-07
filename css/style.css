@@ -86,9 +86,13 @@ nav div button a {
     background-color: #B5C5EB;
 }
 
+main {
+    margin: 4px;
+}
+
 section {
     background-color: white;
-    border-raidus: 12px;
+    border-radius: 12px;
     padding: 20px;
     margin: 20px auto;
     max-width: 800px;
@@ -100,6 +104,7 @@ img {
     border-radius: 4px;
     padding: 5px;
     width: 400px;
+    max-width: 100%;
 }
 
 footer {
@@ -134,7 +139,6 @@ footer a img{
     width: 32px;
     height: 32px;
     padding: 0px;
-    alignment: bottom;
 }
 
 @media only screen and (max-width: 650px) {
