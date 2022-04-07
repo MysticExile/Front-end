@@ -8,7 +8,7 @@ html {
 body {
     background-color: #453185;
     font-size: 18px;
-    margin: 0px;
+    margin: 0;
 }
 header {
     background-image: url(https://i.kym-cdn.com/entries/icons/mobile/000/021/807/ig9OoyenpxqdCQyABmOQBZDI0duHk2QZZmWg2Hxd4ro.jpg);
@@ -48,9 +48,9 @@ nav {
 }
 
 nav div {
-    padding: 0px;
+    padding: 0;
     background-color: #897BB8;
-    margin: 0px;
+    margin: 0;
     justify-content: space-evenly;
     border-radius: 12px;
     color: #897BB8;
@@ -96,7 +96,6 @@ section {
     padding: 20px;
     margin: 20px auto;
     max-width: 800px;
-    border-radius: 12px;
 }
 
 img {
@@ -107,13 +106,17 @@ img {
     max-width: 100%;
 }
 
+iframe {
+    max-width: 100%
+}
+
 footer {
     background-color: #362862;
     font-size: 27px;
     padding: 10px;
     display: flex;
     justify-content: space-around;
-    border-radius: 12px;
+    border-radius: 0;
     color: white;
     text-shadow:
             -1px -1px 0 #000,
@@ -134,11 +137,11 @@ footer a {
 }
 
 footer a img{
-    border: 0px solid #ddd;
-    border-radius: 0px;
+    border: 0 solid #ddd;
+    border-radius: 0;
     width: 32px;
     height: 32px;
-    padding: 0px;
+    padding: 0;
 }
 
 @media only screen and (max-width: 650px) {
